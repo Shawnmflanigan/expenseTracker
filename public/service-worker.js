@@ -48,17 +48,6 @@ const DATA_CACHE_NAME = "data-cache-v1";
     self.clients.claim();
   });
 
-  // self.addEventListener('fetch', function(evt) {
-  //   // code to handle requests goes here
-  //   evt.respondWith(
-  //       caches.open(CACHE_NAME).then(cache => {
-  //         return cache.match(evt.request).then(response => {
-  //           return response || fetch(evt.request);
-  //         });
-  //       })
-  //     );
-  //   });
-  // fetch
 self.addEventListener("fetch", function(evt) {
   if (evt.request.url.includes("/api/")) {
     evt.respondWith(
