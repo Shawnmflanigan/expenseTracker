@@ -1,4 +1,4 @@
-# # Exercise Tracker
+# Expense Tracker
 
 ## Description
 
@@ -18,7 +18,7 @@ This application is deployed [here](https://stark-island-01770.herokuapp.com) on
 
 ## Demo
 
-![Demo](assets/demo.gif)
+![Demo](assets/demo.png)
 
 ## Technologies
 
